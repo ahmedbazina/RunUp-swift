@@ -17,12 +17,14 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vx-DP-oW2">
                                 <rect key="frame" x="84" y="374" width="246" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Let's GO">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7us-1L-xaT" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="mbo-2F-ayM"/>
+                                    <segue destination="7us-1L-xaT" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QIY-dt-QhG"/>
                                 </connections>
                             </button>
                         </subviews>
