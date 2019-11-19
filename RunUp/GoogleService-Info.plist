@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>75734187148-6c65p8pp5h55a09n7cdhcrk0kjefrdpe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.75734187148-6c65p8pp5h55a09n7cdhcrk0kjefrdpe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFP6E8ziKQJH3FUl7XBJVYPyggOBNTnoE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>75734187148</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ahmedbazina.RunUp</string>
+	<key>PROJECT_ID</key>
+	<string>runup-5b91e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>runup-5b91e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:75734187148:ios:2e00c062f5ab1baaa64fa9</string>
+	<key>DATABASE_URL</key>
+	<string>https://runup-5b91e.firebaseio.com</string>
+</dict>
+</plist>

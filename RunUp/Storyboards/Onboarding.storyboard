@@ -2,7 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S97-6d-ibm">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,6 +65,11 @@ So why do not we</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="3uM-2o-tRX" id="N29-38-FIj">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.4039215686" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -152,6 +158,11 @@ to get physically fit and healthy.</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="F5b-ER-Zok" id="P5q-Jq-vVU">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.4039215686" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -181,8 +192,21 @@ to get physically fit and healthy.</string>
                         <segue destination="ViX-Xj-WMJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="wJA-fL-aN6"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="SNb-fA-d4j">
+                    <connections>
+                        <segue destination="S97-6d-ibm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="l9G-R5-Tf5"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="261" y="-56"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="d73-Rr-uaT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="jeZ-gV-2Qi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Go3-VN-1KG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="578"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Rc-yI-oQk">
@@ -237,6 +261,11 @@ to get physically fit and healthy.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="oTo-lH-7Eb" id="8YB-za-Uws">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.4039215686" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -254,6 +283,11 @@ to get physically fit and healthy.</string>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fe5-hb-KYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="GTo-Bm-yYv">
+                    <connections>
+                        <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="xTh-Nj-UTj"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1041" y="-56"/>
         </scene>
@@ -264,4 +298,9 @@ to get physically fit and healthy.</string>
         <image name="onboarding 2" width="255" height="312.66665649414062"/>
         <image name="onboarding 3" width="255" height="333.33334350585938"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wJA-fL-aN6"/>
+        <segue reference="P5q-Jq-vVU"/>
+        <segue reference="xTh-Nj-UTj"/>
+    </inferredMetricsTieBreakers>
 </document>
