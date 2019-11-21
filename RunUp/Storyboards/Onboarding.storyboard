@@ -3,15 +3,15 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Onboarding1-->
         <scene sceneID="l7Q-65-05r">
             <objects>
-                <viewController storyboardIdentifier="Onboarding1" id="S97-6d-ibm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding1" title="Onboarding1" id="S97-6d-ibm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ECp-Fx-RrI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,23 +88,24 @@ So why do not we</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mcy-v0-8BL"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="xkY-Hf-iDZ" appends="YES" id="uxK-Hp-FSp"/>
+                            <outletCollection property="gestureRecognizers" destination="dyY-No-Pj9" appends="YES" id="jfx-rX-Xg4"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="RaY-fL-FV5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Zf-V5-vyM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="xkY-Hf-iDZ">
+                <swipeGestureRecognizer direction="left" id="dyY-No-Pj9">
                     <connections>
-                        <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="OE9-Z8-Qox"/>
+                        <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="kKB-F2-NF0"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-474.39999999999998" y="-56.157635467980299"/>
+            <point key="canvasLocation" x="-657" y="-56"/>
         </scene>
-        <!--View Controller-->
+        <!--Onboarding2-->
         <scene sceneID="fpU-xC-IRo">
             <objects>
-                <viewController storyboardIdentifier="Onboarding2" id="ddb-d6-crR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding2" title="Onboarding2" id="ddb-d6-crR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a9u-qZ-phL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,24 +182,25 @@ to get physically fit and healthy.</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WeZ-kL-UzB"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="1vp-tU-vSo" appends="YES" id="7Rl-Rq-aF5"/>
+                            <outletCollection property="gestureRecognizers" destination="7Yo-Yy-uZT" appends="YES" id="98I-cq-ETc"/>
+                            <outletCollection property="gestureRecognizers" destination="eLX-hM-XCx" appends="YES" id="vC1-AT-FoR"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Jpp-Fh-HNi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FiF-nB-hJN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="1vp-tU-vSo">
+                <swipeGestureRecognizer direction="left" id="7Yo-Yy-uZT">
                     <connections>
-                        <segue destination="ViX-Xj-WMJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="wJA-fL-aN6"/>
+                        <segue destination="ViX-Xj-WMJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="KUW-b7-vEr"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="SNb-fA-d4j">
+                <swipeGestureRecognizer direction="right" id="eLX-hM-XCx">
                     <connections>
-                        <segue destination="S97-6d-ibm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="l9G-R5-Tf5"/>
+                        <segue destination="S97-6d-ibm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="uAq-xO-Vmz"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="261" y="-56"/>
+            <point key="canvasLocation" x="334" y="-56"/>
         </scene>
         <!--Login-->
         <scene sceneID="d73-Rr-uaT">
@@ -206,12 +208,13 @@ to get physically fit and healthy.</string>
                 <viewControllerPlaceholder storyboardName="Login" id="jeZ-gV-2Qi" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Go3-VN-1KG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="510" y="578"/>
+            <point key="canvasLocation" x="334" y="553"/>
         </scene>
-        <!--View Controller-->
+        <!--Onboarding3-->
         <scene sceneID="5Rc-yI-oQk">
             <objects>
-                <viewController storyboardIdentifier="Onboarding3" id="ViX-Xj-WMJ" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fe5-hb-KYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Onboarding3" title="Onboarding3" id="ViX-Xj-WMJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FTs-b3-P8w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,6 +272,7 @@ to get physically fit and healthy.</string>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.4039215686" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="DWh-ow-NEf" firstAttribute="leading" secondItem="dYg-Ir-r9w" secondAttribute="leading" constant="92" id="06H-95-MyQ"/>
                             <constraint firstItem="UpY-ZA-7Qq" firstAttribute="top" secondItem="FTs-b3-P8w" secondAttribute="top" constant="-117" id="6dh-rn-QyF"/>
@@ -280,16 +284,18 @@ to get physically fit and healthy.</string>
                             <constraint firstItem="UpY-ZA-7Qq" firstAttribute="leading" secondItem="FTs-b3-P8w" secondAttribute="leading" constant="-147" id="yGH-wY-XzK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dYg-Ir-r9w"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="pHy-Cw-R4C" appends="YES" id="KlS-TV-net"/>
+                        </connections>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fe5-hb-KYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="GTo-Bm-yYv">
+                <swipeGestureRecognizer direction="right" id="pHy-Cw-R4C">
                     <connections>
-                        <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="xTh-Nj-UTj"/>
+                        <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TYV-Co-aEH"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1041" y="-56"/>
+            <point key="canvasLocation" x="1391" y="-56"/>
         </scene>
     </scenes>
     <resources>
@@ -299,8 +305,8 @@ to get physically fit and healthy.</string>
         <image name="onboarding 3" width="255" height="333.33334350585938"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wJA-fL-aN6"/>
+        <segue reference="KUW-b7-vEr"/>
         <segue reference="P5q-Jq-vVU"/>
-        <segue reference="xTh-Nj-UTj"/>
+        <segue reference="TYV-Co-aEH"/>
     </inferredMetricsTieBreakers>
 </document>
