@@ -213,7 +213,6 @@ to get physically fit and healthy.</string>
         <!--Onboarding3-->
         <scene sceneID="5Rc-yI-oQk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fe5-hb-KYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Onboarding3" title="Onboarding3" id="ViX-Xj-WMJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FTs-b3-P8w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -289,6 +288,7 @@ to get physically fit and healthy.</string>
                         </connections>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fe5-hb-KYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="pHy-Cw-R4C">
                     <connections>
                         <segue destination="ddb-d6-crR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TYV-Co-aEH"/>
@@ -305,8 +305,7 @@ to get physically fit and healthy.</string>
         <image name="onboarding 3" width="255" height="333.33334350585938"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KUW-b7-vEr"/>
-        <segue reference="P5q-Jq-vVU"/>
+        <segue reference="8YB-za-Uws"/>
         <segue reference="TYV-Co-aEH"/>
     </inferredMetricsTieBreakers>
 </document>
