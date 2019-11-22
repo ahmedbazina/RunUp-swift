@@ -105,14 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				81045B932381A44200D82D3D /* Storyboards */,
+				818ECFB723883D6200E15595 /* OneTimePassword.swift */,
+				818ECFB92388418400E15595 /* AlertService.swift */,
 				81EFF497237CF912007E2A7D /* AppDelegate.swift */,
 				81EFF499237CF912007E2A7D /* SceneDelegate.swift */,
 				81EFF49B237CF912007E2A7D /* ViewController.swift */,
 				81EFF4A0237CF913007E2A7D /* Assets.xcassets */,
 				811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */,
 				81EFF4A5237CF913007E2A7D /* Info.plist */,
-				818ECFB723883D6200E15595 /* OneTimePassword.swift */,
-				818ECFB92388418400E15595 /* AlertService.swift */,
 			);
 			path = RunUp;
 			sourceTree = "<group>";
