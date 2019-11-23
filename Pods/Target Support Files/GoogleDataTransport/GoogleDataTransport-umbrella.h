@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GDTCORAssert 2.h"
 #import "GDTCORAssert.h"
 #import "GDTCORClock.h"
 #import "GDTCORConsoleLogger.h"

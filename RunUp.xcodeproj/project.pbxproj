@@ -443,6 +443,7 @@
 			baseConfigurationReference = 3F960F21FA0AFF7718F4A731 /* Pods-RunUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RunUp/RunUp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NA8NKAH6P;
 				INFOPLIST_FILE = RunUp/Info.plist;
@@ -463,6 +464,7 @@
 			baseConfigurationReference = 828546E4C04EE2D25D6F610F /* Pods-RunUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RunUp/RunUp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NA8NKAH6P;
 				INFOPLIST_FILE = RunUp/Info.plist;
