@@ -15,6 +15,8 @@
 		81045B9D2381A4EA00D82D3D /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81045B9C2381A4EA00D82D3D /* Activity.storyboard */; };
 		81045B9F2381A4F500D82D3D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81045B9E2381A4F500D82D3D /* Profile.storyboard */; };
 		811BD5DB2384413900C66EC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */; };
+		8126B35B238972ED000E1715 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8126B35A238972ED000E1715 /* MapKit.framework */; };
+		8126B35D2389731F000E1715 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8126B35C2389731F000E1715 /* HealthKit.framework */; };
 		818ECFB823883D6200E15595 /* OneTimePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFB723883D6200E15595 /* OneTimePassword.swift */; };
 		818ECFBA2388418400E15595 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFB92388418400E15595 /* AlertService.swift */; };
 		818ECFBD2388AD2700E15595 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFBC2388AD2700E15595 /* LoginVC.swift */; };
@@ -38,6 +40,8 @@
 		81045B9C2381A4EA00D82D3D /* Activity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
 		81045B9E2381A4F500D82D3D /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8126B35A238972ED000E1715 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8126B35C2389731F000E1715 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		818ECFB723883D6200E15595 /* OneTimePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTimePassword.swift; sourceTree = "<group>"; };
 		818ECFB92388418400E15595 /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		818ECFBC2388AD2700E15595 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8126B35D2389731F000E1715 /* HealthKit.framework in Frameworks */,
+				8126B35B238972ED000E1715 /* MapKit.framework in Frameworks */,
 				5247B3181F96C90168BB7635 /* Pods_RunUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +75,8 @@
 		16B58799256A7E9CFC844D93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8126B35C2389731F000E1715 /* HealthKit.framework */,
+				8126B35A238972ED000E1715 /* MapKit.framework */,
 				622833D5B0E3D5C3A1C47A65 /* Pods_RunUp.framework */,
 			);
 			name = Frameworks;
