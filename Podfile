@@ -7,7 +7,11 @@ target 'RunUp' do
 
   # Pods for RunUp
 
-pod 'Firebase/Core'
-pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+
+pod 'FirebaseUI/Auth'
+pod 'FirebaseUI/Phone'
+pod 'FirebaseUI/Google'
+
 
 end

@@ -17,6 +17,9 @@
 		811BD5DB2384413900C66EC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */; };
 		818ECFB823883D6200E15595 /* OneTimePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFB723883D6200E15595 /* OneTimePassword.swift */; };
 		818ECFBA2388418400E15595 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFB92388418400E15595 /* AlertService.swift */; };
+		818ECFBD2388AD2700E15595 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFBC2388AD2700E15595 /* LoginVC.swift */; };
+		818ECFBF2388AD3E00E15595 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFBE2388AD3E00E15595 /* SignupVC.swift */; };
+		818ECFC12388AD5300E15595 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFC02388AD5300E15595 /* DashboardVC.swift */; };
 		81EFF498237CF912007E2A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF497237CF912007E2A7D /* AppDelegate.swift */; };
 		81EFF49A237CF912007E2A7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF499237CF912007E2A7D /* SceneDelegate.swift */; };
 		81EFF49C237CF912007E2A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF49B237CF912007E2A7D /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 		811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		818ECFB723883D6200E15595 /* OneTimePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTimePassword.swift; sourceTree = "<group>"; };
 		818ECFB92388418400E15595 /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		818ECFBC2388AD2700E15595 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		818ECFBE2388AD3E00E15595 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		818ECFC02388AD5300E15595 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		81EFF494237CF912007E2A7D /* RunUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EFF497237CF912007E2A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EFF499237CF912007E2A7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,26 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		818ECFBB2388ACEA00E15595 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				81EFF49B237CF912007E2A7D /* ViewController.swift */,
+				818ECFBC2388AD2700E15595 /* LoginVC.swift */,
+				818ECFBE2388AD3E00E15595 /* SignupVC.swift */,
+				818ECFC02388AD5300E15595 /* DashboardVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		818ECFC22388AD8C00E15595 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				818ECFB723883D6200E15595 /* OneTimePassword.swift */,
+				818ECFB92388418400E15595 /* AlertService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		81EFF48B237CF912007E2A7D = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				81045B932381A44200D82D3D /* Storyboards */,
-				818ECFB723883D6200E15595 /* OneTimePassword.swift */,
-				818ECFB92388418400E15595 /* AlertService.swift */,
+				818ECFBB2388ACEA00E15595 /* ViewControllers */,
 				81EFF497237CF912007E2A7D /* AppDelegate.swift */,
 				81EFF499237CF912007E2A7D /* SceneDelegate.swift */,
-				81EFF49B237CF912007E2A7D /* ViewController.swift */,
 				81EFF4A0237CF913007E2A7D /* Assets.xcassets */,
+				818ECFC22388AD8C00E15595 /* Classes */,
 				811BD5DA2384413900C66EC8 /* GoogleService-Info.plist */,
 				81EFF4A5237CF913007E2A7D /* Info.plist */,
 			);
@@ -138,6 +163,7 @@
 				81EFF491237CF912007E2A7D /* Frameworks */,
 				81EFF492237CF912007E2A7D /* Resources */,
 				FE31DB6819C1F1418C47523F /* [CP] Embed Pods Frameworks */,
+				9771A7E578F980C12F60EC5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +250,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9771A7E578F980C12F60EC5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunUp/Pods-RunUp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunUp/Pods-RunUp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunUp/Pods-RunUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FE31DB6819C1F1418C47523F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,8 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				818ECFB823883D6200E15595 /* OneTimePassword.swift in Sources */,
+				818ECFBF2388AD3E00E15595 /* SignupVC.swift in Sources */,
 				81EFF49C237CF912007E2A7D /* ViewController.swift in Sources */,
+				818ECFBD2388AD2700E15595 /* LoginVC.swift in Sources */,
 				81EFF498237CF912007E2A7D /* AppDelegate.swift in Sources */,
+				818ECFC12388AD5300E15595 /* DashboardVC.swift in Sources */,
 				81EFF49A237CF912007E2A7D /* SceneDelegate.swift in Sources */,
 				818ECFBA2388418400E15595 /* AlertService.swift in Sources */,
 			);
