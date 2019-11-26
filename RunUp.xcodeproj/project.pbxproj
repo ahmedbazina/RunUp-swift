@@ -22,6 +22,7 @@
 		818ECFBD2388AD2700E15595 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFBC2388AD2700E15595 /* LoginVC.swift */; };
 		818ECFBF2388AD3E00E15595 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFBE2388AD3E00E15595 /* SignupVC.swift */; };
 		818ECFC12388AD5300E15595 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ECFC02388AD5300E15595 /* DashboardVC.swift */; };
+		81DCCCE223897F7600ABC57A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DCCCE123897F7600ABC57A /* AudioToolbox.framework */; };
 		81EFF498237CF912007E2A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF497237CF912007E2A7D /* AppDelegate.swift */; };
 		81EFF49A237CF912007E2A7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF499237CF912007E2A7D /* SceneDelegate.swift */; };
 		81EFF49C237CF912007E2A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFF49B237CF912007E2A7D /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		818ECFBC2388AD2700E15595 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		818ECFBE2388AD3E00E15595 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		818ECFC02388AD5300E15595 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		81DCCCE123897F7600ABC57A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		81EFF494237CF912007E2A7D /* RunUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EFF497237CF912007E2A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EFF499237CF912007E2A7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				8126B35D2389731F000E1715 /* HealthKit.framework in Frameworks */,
 				8126B35B238972ED000E1715 /* MapKit.framework in Frameworks */,
 				5247B3181F96C90168BB7635 /* Pods_RunUp.framework in Frameworks */,
+				81DCCCE223897F7600ABC57A /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 		16B58799256A7E9CFC844D93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81DCCCE123897F7600ABC57A /* AudioToolbox.framework */,
 				8126B35C2389731F000E1715 /* HealthKit.framework */,
 				8126B35A238972ED000E1715 /* MapKit.framework */,
 				622833D5B0E3D5C3A1C47A65 /* Pods_RunUp.framework */,

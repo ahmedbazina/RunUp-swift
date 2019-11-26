@@ -12,5 +12,7 @@
 	<true/>
 	<key>com.apple.developer.healthkit.access</key>
 	<array/>
+	<key>inter-app-audio</key>
+	<true/>
 </dict>
 </plist>
