@@ -405,3 +405,260 @@ style.alpha = 1
 style.text = "Welcome to RunUp. First thing first log in or sign up so that we can begin."
 style.font = UIFont(name: "AvenirNext-Medium", size: 15)
 style.textColor = UIColor(red: 0.62, green: 0.63, blue: 0.65, alpha: 1)
+
+//Welcome screen1
+// Text style for "Step 1 of 3"
+let style = UILabel(frame: CGRect(x: 138, y: 49, width: 100, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Step 1 of 3"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+//Vector style
+let style = UILabel(frame: CGRect(x: 83, y: 140, width: 209, height: 246))
+style.clipsToBounds = true
+style.alpha = 1#
+
+// Text style for "Welcome to  RunUp Fitness Application"
+let style = UILabel(frame: CGRect(x: 35, y: 414, width: 300, height: 60))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Welcome to  RunUp Fitness Application"
+style.font = UIFont(name: "Quicksand-Bold", size: 24)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+//// Text style for "Personalised workouts will help you gain strength, get in better shape and embrace a healthy lifestyle with a competitive side ranking points and levelling up on the leaderboard"
+let style = UILabel(frame: CGRect(x: 42, y: 495, width: 294, height: 143))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Personalised workouts will help you gain strength, get in better shape and embrace a healthy lifestyle with a competitive side ranking points and levelling up on the leaderboard"
+style.font = UIFont.systemFont(ofSize: 16)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+//Button style
+let style = UILabel(frame: CGRect(x: 28, y: 669, width: 320, height: 50))
+style.clipsToBounds = true
+let shadow0 = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 50))
+shadow0.clipsToBounds = false
+shadow0.layer.shadowColor = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 0.10).cgColor
+shadow0.layer.shadowOpacity = 0.1
+shadow0.layer.shadowOffset = CGSize(width: 0, height: 2)
+style.addSubview(shadow0)
+style.backgroundColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+style.alpha = 1
+
+// Text style for "Get Started"
+let style = UILabel(frame: CGRect(x: 132, y: 682, width: 113, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Get Started"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 1.00, green: 0.99, blue: 0.99, alpha: 1)
+
+//Slider Position
+let style = UILabel(frame: CGRect(x: 152, y: 749, width: 73, height: 13))
+style.clipsToBounds = true
+style.alpha = 1
+
+// slider selected color
+style.backgroundColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+//Welcome screen2
+// Text style for "Step 2 of 3"
+let style = UILabel(frame: CGRect(x: 137, y: 49, width: 103, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Step 2 of 3"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+// Text style for "Select your fitness level"
+let style = UILabel(frame: CGRect(x: 51, y: 102, width: 275, height: 30))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Select your fitness level"
+style.font = UIFont(name: "Quicksand-Bold", size: 24)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Beginer"
+let style = UILabel(frame: CGRect(x: 24, y: 191, width: 75, height: 26))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Beginer"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "You are new to fitness training"
+let style = UILabel(frame: CGRect(x: 32, y: 232, width: 250, height: 23))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "You are new to fitness training"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+//Tick style
+let style = UILabel(frame: CGRect(x: 338, y: 237, width: 20, height: 15))
+style.clipsToBounds = true
+style.backgroundColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+style.alpha = 1
+
+// Text style for "Intermediate"
+let style = UILabel(frame: CGRect(x: 22, y: 320, width: 126, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Intermediate"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "You have been training regularly"
+let style = UILabel(frame: CGRect(x: 33, y: 358, width: 269, height: 23))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "You have been training regularly"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.58, green: 0.58, blue: 0.59, alpha: 1)
+
+// Text style for "Advanced"
+let style = UILabel(frame: CGRect(x: 23, y: 438, width: 96, height: 26))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Advanced"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "You're fit and ready for an intensive workout plan"
+let style = UILabel(frame: CGRect(x: 27, y: 477, width: 333, height: 58))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "You're fit and ready for an intensive workout plan"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.58, green: 0.58, blue: 0.59, alpha: 1)
+
+// Text style for "Next"
+let style = UILabel(frame: CGRect(x: 163, y: 682, width: 46, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Next"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.98, green: 0.98, blue: 0.98, alpha: 1)
+
+//Welcome screen3
+// Text style for "Step 3 of 3"
+let style = UILabel(frame: CGRect(x: 137, y: 49, width: 103, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Step 3 of 3"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+// Text style for "Personal Details"
+let style = UILabel(frame: CGRect(x: 87, y: 102, width: 202, height: 30))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Personnal Details"
+style.font = UIFont(name: "Quicksand-Bold", size: 24)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Let us know about you to speed up the result, Get fit with your personal workout plan!"
+let style = UILabel(frame: CGRect(x: 22, y: 151, width: 331, height: 71))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Let us know about you to speed up the result, Get fit with your personal workout plan!"
+style.font = UIFont(name: "Quicksand-Regular", size: 16)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Apple Health"
+let style = UILabel(frame: CGRect(x: 27, y: 261, width: 124, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Apple Health"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Allow access ti fill my parameters"
+let style = UILabel(frame: CGRect(x: 31, y: 294, width: 247, height: 20))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Allow access ti fill my parameters"
+style.font = UIFont(name: "Quicksand-Regular", size: 16)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+//Slider style/position
+let style = UILabel(frame: CGRect(x: 295, y: 268, width: 53, height: 35))
+style.clipsToBounds = true
+style.layer.cornerRadius = 17
+style.backgroundColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+style.alpha = 1
+
+//dividing line
+let style = UILabel(frame: CGRect(x: 27, y: 337, width: 319, height: 1))
+style.clipsToBounds = true
+style.layer.borderColor = UIColor(red: 0.90, green: 0.90, blue: 0.90, alpha: 1).cgColor
+style.layer.borderWidth = 1
+style.alpha = 1
+
+// Text style for "Birthday"
+let style = UILabel(frame: CGRect(x: 27, y: 362, width: 83, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Birthday"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Aug 25, 1990" (make it appear as calender style look at ios giudlines)
+let style = UILabel(frame: CGRect(x: 241, y: 363, width: 103, height: 23))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Aug 25, 1990"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+// Text style for "Height"
+let style = UILabel(frame: CGRect(x: 27, y: 431, width: 64, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Height"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "175 cm" 
+let style = UILabel(frame: CGRect(x: 290, y: 432, width: 56, height: 23))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "175 cm"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+// Text style for "Weight"
+let style = UILabel(frame: CGRect(x: 27, y: 500, width: 68, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Weight"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "75 kg"
+let style = UILabel(frame: CGRect(x: 302, y: 502, width: 45, height: 23))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "75 kg"
+style.font = UIFont(name: "Quicksand-Regular", size: 18)
+style.textColor = UIColor(red: 0.24, green: 0.40, blue: 0.84, alpha: 1)
+
+// Text style for "Gender"
+let style = UILabel(frame: CGRect(x: 27, y: 573, width: 71, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Gender"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.44, green: 0.44, blue: 0.44, alpha: 1)
+
+// Text style for "Start"
+let style = UILabel(frame: CGRect(x: 165, y: 682, width: 50, height: 25))
+style.clipsToBounds = true
+style.alpha = 1
+style.text = "Start"
+style.font = UIFont(name: "Quicksand-Bold", size: 20)
+style.textColor = UIColor(red: 0.98, green: 0.96, blue: 0.95, alpha: 1)
+
