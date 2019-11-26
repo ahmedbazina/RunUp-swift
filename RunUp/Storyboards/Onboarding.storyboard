@@ -66,9 +66,7 @@ So why do not we</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="3uM-2o-tRX" id="N29-38-FIj">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="jeZ-gV-2Qi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="N29-38-FIj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -160,9 +158,7 @@ to get physically fit and healthy.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="F5b-ER-Zok" id="P5q-Jq-vVU">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="jeZ-gV-2Qi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="P5q-Jq-vVU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -264,9 +260,7 @@ to get physically fit and healthy.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <segue destination="jeZ-gV-2Qi" kind="popoverPresentation" popoverAnchorView="oTo-lH-7Eb" id="8YB-za-Uws">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="jeZ-gV-2Qi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="8YB-za-Uws"/>
                                 </connections>
                             </button>
                         </subviews>
